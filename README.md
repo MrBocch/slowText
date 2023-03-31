@@ -1,4 +1,4 @@
-# slow text
+# slowText
 
 Inspired by how text would slowly roll letter by letter in games like undertale.
 
