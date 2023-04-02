@@ -6,7 +6,7 @@
 void main(int argc, char *argv[]){
 
     if(argc == 1){
-        printf("You forgor");
+        printf("You forgor\n");
         return;
     }
 
@@ -18,7 +18,7 @@ void main(int argc, char *argv[]){
     size_t i = 0;
     while(message[i] != '\0'){
         printf("%c", message[i]);
-	    //printf("\a"); wouldn't this be cool? alert sound has to be fast
+	//printf("\a"); wouldn't this be cool? alert sound has to be fast
         usleep(SPEED);
         i++;
     }
